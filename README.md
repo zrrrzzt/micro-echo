@@ -20,7 +20,7 @@ Both returns
 ## Deploy using [Now](https://zeit.co/now)
 
 ```sh
-$ now git https://github.com/zrrrzzt/micro-echo
+$ now https://github.com/zrrrzzt/micro-echo
 ```
 
 ## License
