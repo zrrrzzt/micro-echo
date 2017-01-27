@@ -25,3 +25,5 @@ $ now https://github.com/zrrrzzt/micro-echo
 
 ## License
 [MIT](LICENSE)
+
+![alt text](https://robots.kebabstudios.party/micro-echo.png "Robohash image of micro-echo")

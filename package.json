@@ -1,7 +1,7 @@
 {
   "name": "micro-echo",
   "description": "echo microservice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -10,12 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.1"
-  },
-  "now": {
-    "engines": {
-      "node": "6.9.1"
-    }
+    "node": ">=7.4.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -24,7 +19,8 @@
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
     "standard-fix": "standard --fix",
-    "start": "micro -p 3000"
+    "start": "micro -p 3000",
+    "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
     "microservice",
@@ -37,6 +33,15 @@
   },
   "bugs": {
     "url": "http://github.com/zrrrzzt/micro-echo/issues"
+  },
+  "now": {
+    "alias": "echo.mikrotjeneste.win",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "greenkeeper": {
+    "emails": false
   },
   "devDependencies": {
     "coveralls": "2.11.15",
