@@ -50,6 +50,6 @@
     "tap": "10.0.0"
   },
   "dependencies": {
-    "micro": "7.0.0"
+    "micro": "7.0.6"
   }
 }
