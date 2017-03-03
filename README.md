@@ -6,11 +6,11 @@
 Echoes back your POST or GET
 
 ```bash
-$ curl -v http://localhost:3000 -d '{"query": "pythonia"}'
+$ curl -v https://echo.mikrotjeneste.win -d '{"query": "pythonia"}'
 ```
 
 ```bash
-$ curl -v http://localhost:3000?query=pythonia
+$ curl -v https://echo.mikrotjeneste.win?query=pythonia
 ```
 
 Both returns
