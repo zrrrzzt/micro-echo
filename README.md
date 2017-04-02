@@ -31,4 +31,4 @@ $ now https://github.com/zrrrzzt/micro-echo
 
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/micro-echo.png "Robohash image of micro-echo")
+![micro-echo](https://robots.kebabstudios.party/micro-echo.png "Robohash image of micro-echo")
