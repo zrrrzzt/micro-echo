@@ -25,6 +25,6 @@ test('it returns json from GET', async t => {
 
 test('it returns json from POST', async t => {
   const url = await getUrl(srv)
-  const result = await axios.post(`${url}`, {description: 'cool'})
+  const result = await axios.post(`${url}`, { description: 'cool' })
   t.deepEqual(result.data.description, 'cool', 'json ok')
 })
