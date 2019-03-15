@@ -12,7 +12,7 @@ module.exports = async (request, response) => {
   if (Object.keys(data).length > 0) {
     send(response, 200, data)
   } else {
-    const readme = readFileSync('./README.md', 'utf-8')
+    const readme = readFileSync(`${__dirname}/README.md`, 'utf-8')
     send(response, 200, md.render(readme))
   }
 }

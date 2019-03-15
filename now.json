@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "micro-echo",
+  "alias": [
+    "ekko.mikrotjeneste.no"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "builds": [
+    { "src": "/index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
