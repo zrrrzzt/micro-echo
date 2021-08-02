@@ -45,7 +45,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "markdown-it": "12.1.0",
+    "markdown-it": "12.2.0",
     "micro": "9.3.4"
   }
 }
